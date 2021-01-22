@@ -1,9 +1,9 @@
 const jhonData = {
-    "name": "John Deo.",
-    "name2": "Richard Tea.",
-    "name3": "Alexa Johnson",
-    "role": "Visual Designer & Front-End Developer,",
-    "ptext": "Creative Designer & Developer located in London.",
+    "name": "Emma Beaton.",
+    "name2": "Emma Beaton.",
+    "name3": "Emma Beaton",
+    "role": "UX/UI Designer & Product Manager,",
+    "ptext": "Creative Designer & Developer located in Seattle.",
     "socialLinks":[
         {
           "name": "Facebook",

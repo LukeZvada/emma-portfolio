@@ -21,7 +21,7 @@ class frelencerBanner extends Component {
                         <div className="col-lg-6">
                             <div className="frelencer_content">
                                 <Reveal effect="fadeInUp" duration={500}>
-                                    <h2 className="t_color">Hey there!<br/> I'm Martin Solonick Independent <span>Frelencer</span></h2>
+                                    <h2 className="t_color">Hey there!<br/> I'm Emma Beaton Product <span>Manager</span></h2>
                                 </Reveal>
                                 <Reveal effect="fadeInUp" duration={700}>
                                     <h4><span>I create thousand off website</span></h4>

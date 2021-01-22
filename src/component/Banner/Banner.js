@@ -15,7 +15,7 @@ class Banner extends Component {
                                 <h5>HELLO</h5>
                             </Reveal>
                             <Reveal effect="fadeInUp" duration={1500}>
-                                <h2>I am {jhonData.name}</h2>
+                                <h2>I am Emma Beaton</h2>
                             </Reveal>
                             
                             <h4 className="wow fadeInUp anoimated">Visual Designer & Front-end Developer</h4>
