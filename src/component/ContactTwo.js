@@ -12,7 +12,7 @@ class ContactTwo extends Component {
               <div className="get_info">
                 <SectionTitleTwo
                   stitle="Get in Touch"
-                  btitle="Talk or Meet with Me"
+                  btitle="Let's Talk"
                 />
                 <div className="media get_item">
                   <i className="flaticon-phone"></i>
