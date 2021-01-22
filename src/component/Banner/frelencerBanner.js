@@ -23,9 +23,9 @@ class frelencerBanner extends Component {
                                 <Reveal effect="fadeInUp" duration={500}>
                                     <h2 className="t_color">Hey there!<br/> I'm Emma Beaton Product <span>Manager</span></h2>
                                 </Reveal>
-                                <Reveal effect="fadeInUp" duration={700}>
+                                {/* <Reveal effect="fadeInUp" duration={700}>
                                     <h4><span>I create thousand off website</span></h4>
-                                </Reveal>
+                                </Reveal> */}
                                 <Reveal effect="fadeInUp" duration={900}>
                                     <a href="./"className="theme_btn active">Hire me</a>
                                 </Reveal>
