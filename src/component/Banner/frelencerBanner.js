@@ -14,7 +14,7 @@ class frelencerBanner extends Component {
                     <div className="bubble b_six"></div>
                 </div>
                 <Reveal effect="fadeInRight" duration={500}>
-                {/* <img className="s_shap" src={require('../../image/banner_img.svg')}  alt=""/> */}
+                <img className="s_shap" src={require('../../image/banner_img.svg')}  alt=""/>
                 </Reveal>
                 <div className="container">
                     <div className="row">
