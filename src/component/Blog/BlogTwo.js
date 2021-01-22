@@ -7,7 +7,7 @@ class BlogTwo extends Component{
         return(
             <section className="blog_area_two" id="blog">
                 <div className="container">
-                    <SectionTitleTwo tCenter="text-center" stitle="Our Blog" btitle="News and Updates"/>
+                    <SectionTitleTwo tCenter="text-center" stitle="My Blog" btitle="News and Updates"/>
                     <Reveal effect="fadeInUp" duration={1000}>
                         <div className="row">
                             <BlogTwoitems bTitle="Contrary to popular belief" bDetails="Suspendisse in mattis neque, sed accu- msan erat. Maecenas eget metus dui. Vestibulum accumsan massa quam.." btnText="Read More" image="post-img1.jpg" Pdata="Jan 14"/>

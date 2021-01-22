@@ -19,7 +19,7 @@ export const Homefrelencer = () => (
     <PortfolioSlider/>
     <SkillTwo/>
     <TestimonialTwo/>
-    <ClientslogoTwo/>
+    {/* <ClientslogoTwo/> */}
     <BlogTwo/>
     <ContactTwo jhonData={jhonData}/>
     <FooterTwo jhonData={jhonData}/>
