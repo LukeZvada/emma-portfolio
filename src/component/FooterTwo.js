@@ -23,8 +23,7 @@ class FooterTwo extends Component{
                             </Fade>
                         </div>
                         <div className="col-sm-8 text-right">
-                            <h6>Made with love by <a href="https://themeforest.net/user/blazethemez">Blazethemez</a></h6>
-                            <p>© 2020 Blazethemez - All Rights Reserved</p>
+                            <p>© 2021 Emma Beaton - All Rights Reserved</p>
                         </div>
                     </div>
                 </div>
