@@ -46,7 +46,7 @@ class SkillTwo extends Component {
                     <div className="row align-items-center">
                         <div className="col-lg-6">
                             <div className="skill_content_two">
-                                <SectionTitleTwo stitle="My Featured Skills" btitle="Some Interesting Facts About Me."/>
+                                <SectionTitleTwo stitle="My Featured Skills" btitle="Some Interesting Facts About Me"/>
                                 <p>Horse play chinwag bog-standard loo cup of char fanny around tinkety tonk old fruit bog me old mucker is bits and bobs, mush cheeky bugger nancy boy.!</p>
                                 <div className="row">
                                     <CounterItem col="col-md-6 s_item" CText='200' pdescription='Design Process'/>
