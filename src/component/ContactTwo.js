@@ -18,33 +18,26 @@ class ContactTwo extends Component {
                   <i className="flaticon-phone"></i>
                   <div className="media-body">
                     <h6>Call Me Now</h6>
-                    <a href=".#">02934567845</a>
+                    <a href=".#">330.819.5309</a>
                   </div>
                 </div>
                 <div className="media get_item">
                   <i className="flaticon-chat"></i>
                   <div className="media-body">
                     <h6>Contact Me</h6>
-                    <a href=".#">john@gmail.com</a>
+                    <a href=".#">emma.beaton@gmail.com</a>
                   </div>
                 </div>
                 <div className="media get_item">
                   <i className="flaticon-pin"></i>
                   <div className="media-body">
-                    <h6>Get Me Here</h6>
-                    <p>Z105 - London, UK</p>
-                  </div>
-                </div>
-                <div className="media get_item">
-                  <i className="flaticon-sound"></i>
-                  <div className="media-body">
-                    <h6>Listen To Me</h6>
-                    <a href=".#">john.com</a>
+                    <h6>Location</h6>
+                    <p>Seattle, WA</p>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-lg-7 col-md-12">
+            {/* <div className="col-lg-7 col-md-12">
               <Reveal effect="fadeInRight" duration={800}>
                 <div className="input_form">
                   <SectionTitleTwo
@@ -54,7 +47,7 @@ class ContactTwo extends Component {
                   <Form />
                 </div>
               </Reveal>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
