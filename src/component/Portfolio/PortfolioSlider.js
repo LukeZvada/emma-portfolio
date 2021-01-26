@@ -5,9 +5,9 @@ class PortfolioSlider extends Component {
     render(){
         const settings = {
             dots: true,
-            infinite: true,
+            infinite: false,
             speed: 500,
-            arrows: false,
+            arrows: true,
             autoplay: true,
             pauseOnHover:true,
             autoplaySpeed: 5000,
