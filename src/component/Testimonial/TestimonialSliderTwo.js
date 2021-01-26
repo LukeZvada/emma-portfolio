@@ -18,7 +18,7 @@ import Slider from 'react-slick';
         <div>
           <Slider {...settings} className="testimonial_slider_Two">
                 <div className="item">
-                    {/* <p>Tidio has given our clients a quick and easy way to send over thoughts and questions without delay or wait time! No second guessing – just asked and answered quickly in order to make their purchasing decisions easier!</p> */}
+                    <p>Tidio has given our clients a quick and easy way to send over thoughts and questions without delay or wait time! No second guessing – just asked and answered quickly in order to make their purchasing decisions easier!</p>
                     <div className="media">
                         <div className="author_img">
                             <img src={require('../../image/slider2.png')} alt=""/>
