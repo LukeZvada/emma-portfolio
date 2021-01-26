@@ -15,7 +15,7 @@ class TestimonialTwo extends Component{
                         </div>
                         <div className="col-lg-6">
                             <div className="testimonial_slider_info">
-                                <SectionTitleTwo stitle="Testmonials" btitle=""/>
+                                <SectionTitleTwo stitle="Testimonials" btitle=""/>
                                 <TestimonialSliderTwo/>
                             </div>
                         </div>
