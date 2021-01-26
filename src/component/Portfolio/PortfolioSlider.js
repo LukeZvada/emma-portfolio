@@ -49,7 +49,7 @@ class PortfolioSlider extends Component {
                             <div className="portfolio_content">
                                 <a href="./"><img src={require('../../image/new1.jpg')} alt=""/></a>
                                 <div className="text">
-                                    <a href="./"><h4>Poluchoromatic Logo</h4></a>
+                                    <a href="./"><h4>Octera: Messaging Resdesign</h4></a>
                                     <a href=".#">Branding Design</a>
                                 </div>
                             </div>
@@ -58,7 +58,7 @@ class PortfolioSlider extends Component {
                             <div className="portfolio_content">
                                 <a href="./"><img src={require('../../image/portfolio1.jpg')} alt=""/></a>
                                 <div className="text">
-                                    <a href="./"><h4>Octera: Messaging Resdesign</h4></a>
+                                    <a href="./"><h4>Octera: Multiple Bids</h4></a>
                                     <a href=".#">Logo Design</a>
                                 </div>
                             </div>
@@ -67,7 +67,7 @@ class PortfolioSlider extends Component {
                             <div className="portfolio_content">
                                 <a href="./"><img src={require('../../image/portfolio2.jpg')} alt=""/></a>
                                 <div className="text">
-                                    <a href="./"><h4>Creative Design</h4></a>
+                                    <a href="./"><h4>Mechanical License Collective</h4></a>
                                     <a href=".#">App Design</a>
                                 </div>
                             </div>
@@ -76,7 +76,7 @@ class PortfolioSlider extends Component {
                             <div className="portfolio_content">
                                 <a href="./"><img src={require('../../image/portfolio1.jpg')} alt=""/></a>
                                 <div className="text">
-                                    <a href="./"><h4>John Portfolio Logo</h4></a>
+                                    <a href="./"><h4>Mechanical License Collective</h4></a>
                                     <a href=".#">UI/UX Design</a>
                                 </div>
                             </div>
