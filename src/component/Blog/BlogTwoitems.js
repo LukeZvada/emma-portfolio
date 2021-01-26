@@ -17,10 +17,10 @@ class BlogTwoitems extends Component{
                                 <i className="icon_tags_alt"></i>
                                 BY : Tasnim
                             </span>
-                            <span>
+                            {/* <span>
                                 <i className="icon_chat_alt"></i>
                                 <a href="/#">0 comment</a>
-                            </span>
+                            </span> */}
                         </div>
                         <a href="/#"><h2>{bTitle}</h2></a>
                         <p>{bDetails}</p>
