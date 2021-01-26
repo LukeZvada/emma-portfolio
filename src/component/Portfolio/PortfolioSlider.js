@@ -58,6 +58,15 @@ class PortfolioSlider extends Component {
                             <div className="portfolio_content">
                                 <a href="./"><img src={require('../../image/new1.jpg')} alt=""/></a>
                                 <div className="text">
+                                    <a href="./"><h4>The MLC: Blah 2</h4></a>
+                                    <a href=".#">Branding Design</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="p_item">
+                            <div className="portfolio_content">
+                                <a href="./"><img src={require('../../image/new1.jpg')} alt=""/></a>
+                                <div className="text">
                                     <a href="./"><h4>Octera: Messaging Resdesign</h4></a>
                                     <a href=".#">Branding Design</a>
                                 </div>
