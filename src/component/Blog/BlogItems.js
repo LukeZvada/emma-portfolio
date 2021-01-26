@@ -15,7 +15,7 @@ class BlogItems extends Component{
                         <div className="blog-meta">
                             <span>
                                 <i className="icon_tags_alt"></i>
-                                BY : Tasnim
+                                BY: Emma Beaton
                             </span>
                             <span>
                                 <i className="icon_chat_alt"></i>
