@@ -10,8 +10,8 @@ class NavbarTwo extends Component{
                 <nav className={`navbar navbar-expand-lg navbar-light ${mClass}`}>
                     <div className={`container ${mContainer}`}>
                         <a className="navbar-brand logo_h" href="index.html">
-                            <img src={require ("../../image/" + mainlogo)} alt=""/>
-                            <img src={require ("../../image/" + stickylogo)} alt=""/>
+                            <img src={require ("../../image/EmmaLogoDark.png")} alt=""/>
+                            <img src={require ("../../image/EmmaLogoDark.png")} alt=""/>
                         </a>
                         <a href="./" className="btn get-btn get-btn-two d-lg-none d-md-block login">Login</a>
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
