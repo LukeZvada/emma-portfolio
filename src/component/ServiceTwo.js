@@ -19,14 +19,14 @@ class ServiceTwo extends Component{
                                     </li>
                                     <li className="nav-item">
                                         <a className="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">
-                                            Mobile & App Design 
+                                            Product Managment  
                                         </a>
                                     </li>
-                                    <li className="nav-item">
+                                    {/* <li className="nav-item">
                                         <a className="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">
                                             3D Modeling &  Motion
                                         </a>
-                                    </li>
+                                    </li> */}
                                 </ul>
                             </div>
                         </div>
