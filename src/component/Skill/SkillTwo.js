@@ -16,13 +16,13 @@ class SkillTwo extends Component {
               update() {
                 el.innerText = data.count.toLocaleString();
               } });
-          
+
           }
-          
+
           function makeCountup(el) {
             const text = el.textContent;
             const target = parseInt(text, 10);
-          
+
             const io = new IntersectionObserver(entries => {
               entries.forEach(entry => {
                 if (entry.intersectionRatio > 0) {
@@ -31,12 +31,12 @@ class SkillTwo extends Component {
                 }
               });
             });
-          
+
             io.observe(el);
           }
-          
+
           const els = document.querySelectorAll('[data-countup]');
-          
+
         els.forEach(makeCountup);
     }
     render(){
@@ -49,10 +49,10 @@ class SkillTwo extends Component {
                                 <SectionTitleTwo stitle="My Featured Skills" btitle="Some Interesting Facts About Me"/>
                                 <p>Horse play chinwag bog-standard loo cup of char fanny around tinkety tonk old fruit bog me old mucker is bits and bobs, mush cheeky bugger nancy boy.!</p>
                                 <div className="row">
-                                    <CounterItem col="col-md-6 s_item" CText='200' pdescription='Design Process'/>
-                                    <CounterItem col="col-md-6 s_item" CText='120' pdescription='UX Thinking'/>
-                                    <CounterItem col="col-md-6 s_item" CText='4' pdescription='Prototype'/>
-                                    <CounterItem col="col-md-6 s_item" CText='10' pdescription='Support'/>
+                                    <CounterItem col="col-md-6 s_item" CText='7' pdescription='Years Experience in Technology'/>
+                                    <CounterItem col="col-md-6 s_item" CText='10' pdescription='Products Shipped'/>
+                                    {/* <CounterItem col="col-md-6 s_item" CText='4' pdescription='Prototype'/>
+                                    <CounterItem col="col-md-6 s_item" CText='10' pdescription='Support'/> */}
                                 </div>
                             </div>
                         </div>

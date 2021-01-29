@@ -79,14 +79,23 @@
     .blog_area .row{
         margin-bottom: -50px;
     }
+    .body_wrapper > section,
+    .body_wrapper > .testimonial_area_two,
+    .body_wrapper > .service_area_tw {
+      margin-left: 0;
+    }
     .navbar{
         width: 100%;
         height: unset;
         margin-bottom: 0em;
         padding: 0px 15px;
+        background-color: white;
     }
     .navbar .container {
       flex-direction: unset;
+    }
+    .navbar .logo_h {
+      margin-bottom: 0px;
     }
     .navbar .login{
         margin-top: 0px;
