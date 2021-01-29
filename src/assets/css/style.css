@@ -21,17 +21,17 @@ Table of Content:
 03/ header
 04/ slider
 05/ photography
-06/ button 
-07/ work 
+06/ button
+07/ work
 08/ team
-09/ contact 
-10/ price 
-11/ portfolio 
-12/ blog 
-13/ sidebar  
-13/ page-header  
-13/ project  
-13/ we-dope  
+09/ contact
+10/ price
+11/ portfolio
+12/ blog
+13/ sidebar
+13/ page-header
+13/ project
+13/ we-dope
 13/ progress
 13/ comingsoon
 13/ error
@@ -212,7 +212,8 @@ h6 {
 /*----------------------------------------------------*/
 /*========= header_area css ===========*/
 .navbar {
-  width: 100%;
+  height:100vh;
+  width: 13em;
   top: 0px;
   -webkit-transform: translateY(0);
   -ms-transform: translateY(0);
@@ -225,6 +226,12 @@ h6 {
   -webkit-backface-visibilite: hidden;
 }
 
+.navbar > .container {
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 1em;
+}
+
 @media (min-width: 1300px) {
   .navbar .custome_container {
     max-width: 1440px;
@@ -232,7 +239,7 @@ h6 {
 }
 
 .navbar .logo_h {
-  margin-right: 0px;
+  margin: 0px 0px 2em -10px;  
 }
 
 .navbar .logo_h img {
@@ -246,8 +253,9 @@ h6 {
   display: none;
 }
 
-.navbar .navbar-nav .nav-item {
-  margin-left: 35px;
+.navbar .navbar-nav {
+  display: flex;
+  flex-direction: column;
 }
 
 .navbar .navbar-nav .nav-item .nav-link {
@@ -258,6 +266,7 @@ h6 {
   padding: 0px;
   cursor: pointer;
   transition: all 0.2s linear;
+  width: fit-content;
 }
 
 .navbar .navbar-nav .nav-item .nav-link:before {
@@ -1669,7 +1678,7 @@ h6 {
   margin-bottom: 0;
 }
 .frelencer_content h2 span {
-  color: #0db3c7;
+  color: #00F;
   font-weight: 900;
 }
 .frelencer_content h4 span {
@@ -1680,7 +1689,7 @@ h6 {
   display: inline-block;
   font-weight: 600;
   letter-spacing: 6px;
-  color: #0db3c7;
+  color: #00F;
 }
 .frelencer_content .theme_btn {
   margin-top: 40px;
@@ -1694,8 +1703,8 @@ h6 {
   box-shadow: 0px 16px 30px 0px rgba(0, 0, 0, 0.12);
 }
 .frelencer_content .theme_btn.active {
-  background: #0db3c7;
-  border-color: #0db3c7;
+  background: #00F;
+  border-color: #00F;
 }
 .frelencer_img {
   position: relative;
@@ -1772,7 +1781,7 @@ h6 {
   font-size: 25px;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: #0db3c7;
+  color: #00F;
   font-weight: 600;
   margin-bottom: 15px;
 }
@@ -1822,7 +1831,7 @@ h6 {
 }
 .service_content .nav-tabs li a.active,
 .service_content .nav-tabs li a:hover {
-  color: #0db3c7;
+  color: #00F;
   background: transparent;
 }
 .service_content .nav-tabs li a img {
@@ -1883,7 +1892,7 @@ h6 {
   transition: color 0.2s linear;
 }
 .portfolio_slider .p_item .portfolio_content h4:hover {
-  color: #0db3c7;
+  color: #00F;
 }
 .portfolio_slider .p_item .portfolio_content a {
   font-size: 14px;
@@ -1914,7 +1923,7 @@ h6 {
 .testimonial_slider_info .slick-dots li.slick-active button,
 .testimonial_slider_info .slick-dots li button:hover {
   transform: scale(1);
-  background-color: #0db3c7;
+  background-color: #00F;
   opacity: 1;
 }
 .portfolio_slider .slick-dots li button,
@@ -2035,7 +2044,7 @@ h6 {
 .clients_content_two .clients_item h2 {
   font-size: 60px;
   font-weight: 700;
-  color: #0db3c7;
+  color: #00F;
   opacity: 0.5;
   margin-bottom: 5px;
 }
@@ -2058,7 +2067,7 @@ h6 {
   width: 500px;
   height: 500px;
   border-radius: 50%;
-  background: #0db3c7;
+  background: #00F;
   opacity: 0.03;
   position: absolute;
   right: -150px;
@@ -2090,7 +2099,7 @@ h6 {
 }
 .blog_area_two .blog_post .post_content h2:hover,
 .blog_area_two .blog_post .post_content .read_btn:hover {
-  color: #0db3c7;
+  color: #00F;
 }
 .home_bubble .bubble {
   position: absolute;
@@ -2116,7 +2125,7 @@ h6 {
 }
 
 .home_bubble .bubble.b_one {
-  background: #00c99c;
+  background: #000;
   top: 25%;
   left: 85px;
   -webkit-transform: translateY(-50%);
@@ -2127,7 +2136,7 @@ h6 {
 }
 
 .home_bubble .bubble.b_two {
-  background: #fca249;
+  background: #000;
   top: 40%;
   left: 155px;
   -webkit-transform: translateY(-50%);
@@ -2138,7 +2147,7 @@ h6 {
 }
 
 .home_bubble .bubble.b_three {
-  background: #7d95fa;
+  background: #000;
   top: 85%;
   left: 255px;
   -webkit-animation: spin1 1s infinite alternate;
@@ -2146,7 +2155,7 @@ h6 {
 }
 
 .home_bubble .bubble.b_four {
-  background: #d27dfa;
+  background: #000;
   top: 100px;
   left: 205px;
   -webkit-animation: spin1 2s infinite alternate;
@@ -2154,7 +2163,7 @@ h6 {
 }
 
 .home_bubble .bubble.b_five {
-  background: #ff9398;
+  background: #000;
   top: 250px;
   left: 355px;
   -webkit-animation: spin1 3s infinite alternate;
@@ -2162,7 +2171,7 @@ h6 {
 }
 
 .home_bubble .bubble.b_six {
-  background: #f1d53b;
+  background: #000;
   top: 75%;
   left: 55px;
   -webkit-animation: spin2 2s infinite alternate;
@@ -2243,6 +2252,11 @@ h6 {
 .body_wrapper {
   overflow: hidden;
 }
+.body_wrapper > section,
+.body_wrapper > .testimonial_area_two,
+.body_wrapper > .service_area_tw {
+  margin-left: 2em;
+}
 .contact-area .section_title_two {
   margin-bottom: 70px;
 }
@@ -2276,22 +2290,22 @@ h6 {
   padding: 120px 0px;
 }
 .contact-area-two .input_form form .form-control:focus {
-  border-color: #0db3c7;
+  border-color: #00F;
 }
 .contact-area-two .input_form form .theme_btn {
-  background: #0db3c7;
+  background: #00F;
   color: #fff;
-  border-color: #0db3c7;
+  border-color: #00F;
 }
 .contact-area-two .theme_btn:before {
   transform: scaleX(1);
-  background: #0db3c7;
+  background: #00F;
 }
 .contact-area-two .input_form form .theme_btn:hover {
   box-shadow: 0px 16px 30px 0px rgba(0, 0, 0, 0.12);
 }
 .footer-area-two {
-  background: #0db3c7;
+  background: #00F;
   padding: 20px 0px;
 }
 .footer-area-two .footer-content {

@@ -18,13 +18,13 @@ class Skill extends Component {
               update() {
                 el.innerText = data.count.toLocaleString();
               } });
-          
+
           }
-          
+
           function makeCountup(el) {
             const text = el.textContent;
             const target = parseInt(text, 10);
-          
+
             const io = new IntersectionObserver(entries => {
               entries.forEach(entry => {
                 if (entry.intersectionRatio > 0) {
@@ -33,12 +33,12 @@ class Skill extends Component {
                 }
               });
             });
-          
+
             io.observe(el);
           }
-          
+
           const els = document.querySelectorAll('[data-countup]');
-          
+
         els.forEach(makeCountup);
     }
     render(){

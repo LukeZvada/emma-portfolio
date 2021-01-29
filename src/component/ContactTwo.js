@@ -18,7 +18,7 @@ class ContactTwo extends Component {
                   <i className="flaticon-phone"></i>
                   <div className="media-body">
                     <h6>Call Me Now</h6>
-                    <a href=".#">330.819.5309</a>
+                    <a href=".#">N/A</a>
                   </div>
                 </div>
                 <div className="media get_item">

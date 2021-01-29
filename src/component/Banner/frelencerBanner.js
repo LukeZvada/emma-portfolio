@@ -5,23 +5,16 @@ class frelencerBanner extends Component {
     render(){
         return(
             <section className="frelencer_banner_area" id="home">
-                <div className="home_bubble">
-                    <div className="bubble b_one"></div>
-                    <div className="bubble b_two"></div>
-                    <div className="bubble b_three"></div>
-                    <div className="bubble b_four"></div>
-                    <div className="bubble b_five"></div>
-                    <div className="bubble b_six"></div>
-                </div>
                 <Reveal effect="fadeInRight" duration={500}>
-                <img className="s_shap" src={require('../../image/banner_img.svg')}  alt=""/>
+                <img className="s_shap" src={require('../../image/banner_img_black.svg')}  alt=""/>
                 </Reveal>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="frelencer_content">
                                 <Reveal effect="fadeInUp" duration={500}>
-                                    <h2 className="t_color">Hey there!<br/> I'm Emma Beaton Product <span>Manager</span></h2>
+                                    <h3 className="t_color">Emma Beaton</h3>
+                                    <h2 className="t_color">Product <span>Manager</span></h2>
                                 </Reveal>
                                 {/* <Reveal effect="fadeInUp" duration={700}>
                                     <h4><span>I create thousand off website</span></h4>
