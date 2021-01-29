@@ -212,7 +212,8 @@ h6 {
 /*----------------------------------------------------*/
 /*========= header_area css ===========*/
 .navbar {
-  width: 100%;
+  height:100vh;
+  width: 13em;
   top: 0px;
   -webkit-transform: translateY(0);
   -ms-transform: translateY(0);
@@ -225,6 +226,12 @@ h6 {
   -webkit-backface-visibilite: hidden;
 }
 
+.navbar > .container {
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 1em;
+}
+
 @media (min-width: 1300px) {
   .navbar .custome_container {
     max-width: 1440px;
@@ -232,7 +239,7 @@ h6 {
 }
 
 .navbar .logo_h {
-  margin-right: 0px;
+  margin: 0px 0px 2em -10px;  
 }
 
 .navbar .logo_h img {
@@ -246,18 +253,20 @@ h6 {
   display: none;
 }
 
-.navbar .navbar-nav .nav-item {
-  margin-left: 35px;
+.navbar .navbar-nav {
+  display: flex;
+  flex-direction: column;
 }
 
 .navbar .navbar-nav .nav-item .nav-link {
   font: 600 14px/30px "Montserrat", sans-serif;
-  color: white;
+  color: black;
   text-transform: uppercase;
   position: relative;
   padding: 0px;
   cursor: pointer;
   transition: all 0.2s linear;
+  width: fit-content;
 }
 
 .navbar .navbar-nav .nav-item .nav-link:before {
@@ -2242,6 +2251,11 @@ h6 {
 }
 .body_wrapper {
   overflow: hidden;
+}
+.body_wrapper > section,
+.body_wrapper > .testimonial_area_two,
+.body_wrapper > .service_area_tw {
+  margin-left: 2em;
 }
 .contact-area .section_title_two {
   margin-bottom: 70px;

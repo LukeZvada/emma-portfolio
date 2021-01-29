@@ -80,7 +80,13 @@
         margin-bottom: -50px;
     }
     .navbar{
+        width: 100%;
+        height: unset;
+        margin-bottom: 0em;
         padding: 0px 15px;
+    }
+    .navbar .container {
+      flex-direction: unset;
     }
     .navbar .login{
         margin-top: 0px;
@@ -108,8 +114,9 @@
     .red_color .navbar_fixed .navbar-toggler span{
         background: #ff2a39;
     }
-    .navbar .navbar-nav .nav-item{
-        margin-left: 0px;
+    .navbar .navbar-nav {
+      display: unset;
+      flex-direction: unset;
     }
     .navbar-nav{
         background: #fff;
@@ -135,7 +142,7 @@
         padding: 90px 30px 80px;
     }
     .team_item{
-        margin-bottom: 40px;   
+        margin-bottom: 40px;
     }
     .team_area{
         padding-bottom: 60px;
@@ -225,7 +232,7 @@
     }
     .navbar-collapse{
         max-height: 275px;
-        overflow-y: scroll; 
+        overflow-y: scroll;
     }
     .banner_area_two .banner_content h2 {
         font-size: 53px;
@@ -251,7 +258,7 @@
     .footer-content p{
         letter-spacing: 2px;
     }
-} 
+}
 @media (max-width:667px){
     .error_text:after{
         display: none;
@@ -284,7 +291,7 @@
     }
     .title_p br{
         display: none;
-    
+
     }
     .title_h2{
         font-size: 27px;
