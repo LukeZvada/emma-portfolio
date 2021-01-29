@@ -13,7 +13,7 @@ import jhonData from './component/jhonData';
 
 export const Homefrelencer = () => (
   <div className="body_wrapper">
-    <NavbarTwo mClass="menu_two" mainlogo="logo-blue.png" stickylogo="logo-blue.png"/>  
+    <NavbarTwo mClass="menu_two" mainlogo="logo-blue.png" stickylogo="logo-blue.png"/>
     <FBanner jhonData={jhonData}/>
     <ServiceTwo rowFlex="flex-row-reverse"/>
     <PortfolioSlider/>

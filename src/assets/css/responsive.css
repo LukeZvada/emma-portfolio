@@ -91,13 +91,13 @@
         background: #fff;
     }
     .menu_two .navbar-toggler span{
-        background: #0db3c7;
+        background: #00F;
     }
     .menu_two.navbar .login{
         display: none !important;
     }
     .navbar_fixed .menu_two .navbar-toggler span,.menu_two.navbar .navbar-nav .nav-item .nav-link:before{
-        background: #0db3c7;
+        background: #00F;
     }
     .dark_menu .navbar-toggler span{
         background: #040c2c;
