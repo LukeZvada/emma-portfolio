@@ -29,26 +29,26 @@ class NavbarTwo extends Component{
                                         Service
                                     </Link>
                                 </li> */}
-                                <li className="nav-item">
+                                {/* <li className="nav-item">
                                     <Link className="nav-link" activeClass="active" to="portfolio" spy={true} smooth={true} offset={-86} duration={500}>
                                         Portfolio
                                     </Link>
-                                </li>
-                                <li className="nav-item">
+                                </li> */}
+                                {/* <li className="nav-item">
                                     <Link className="nav-link" activeClass="active" to="skill" spy={true} smooth={true} offset={-86} duration={500}>
                                         Skills
                                     </Link>
-                                </li>
-                                <li className="nav-item">
+                                </li> */}
+                                {/* <li className="nav-item">
                                     <Link className="nav-link" activeClass="active" to="testimonial" spy={true} smooth={true} offset={-86} duration={500}>
                                         Testimonials
                                     </Link>
-                                </li>
-                                <li className="nav-item">
+                                </li> */}
+                                {/* <li className="nav-item">
                                     <Link className="nav-link" activeClass="active" to="blog" spy={true} smooth={true} offset={-86} duration={500}>
                                         Blog
                                     </Link>
-                                </li>
+                                </li> */}
                                 <li className="nav-item">
                                     <Link className="nav-link" activeClass="active" to="contacts" spy={true} smooth={true} offset={-86} duration={500}>
                                         Contact
